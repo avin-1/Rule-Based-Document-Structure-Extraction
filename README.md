@@ -15,3 +15,8 @@ The project uses the following Python libraries, listed in `requirements.txt`:
 - **Python 3.9**: Specified in the Docker base image (`python:3.9-slim`).
 
 ## Project Structure
+
+#TO run this Project 
+python extract_outline.py input/sample.pdf output/output.json
+run abouve command in venv
+
