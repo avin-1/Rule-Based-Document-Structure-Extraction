@@ -31,14 +31,14 @@ def extract_text_blocks(pdf_path):
                         "font": span["font"],
                         "flags": span["flags"],  # For bold, italic, etc.
                         "bbox": span["bbox"],  # (x0, y0, x1, y1)
-                        "page": page_num + 1
+                        "page": page_num 
                     })
     
     doc.close()
     return blocks
 
 def detect_title(blocks, metadata):
-    """Identify the document title robustly."""
+    """Identify the document title robustly, merging multi-line titles."""
     # Check metadata first
     if metadata.get("title") and metadata["title"].strip():
         return metadata["title"]
@@ -46,17 +46,26 @@ def detect_title(blocks, metadata):
     # Find the first non-empty page
     first_page = min([b["page"] for b in blocks], default=1)
     first_page_blocks = [b for b in blocks if b["page"] == first_page]
-    
     if not first_page_blocks:
         return "Untitled"
     
-    # Look for the largest font size or topmost prominent text
+    # Sort by font size (desc) and vertical position (asc)
     candidates = sorted(first_page_blocks, key=lambda x: (-x["font_size"], x["bbox"][1]))
-    for candidate in candidates[:3]:  # Check top 3 candidates
-        text = candidate["text"]
-        if len(text) > 5 and not re.match(r"^\d+(\.\d+)*$", text):  # Avoid numbers like "4.4.4..."
-            return text
+    if not candidates:
+        return "Untitled"
     
+    # Take the largest font size among candidates
+    max_font_size = candidates[0]["font_size"]
+    title_lines = []
+    for block in candidates:
+        # Merge lines with similar font size and close vertical position
+        if abs(block["font_size"] - max_font_size) < 1.0 and len(block["text"]) > 2:
+            title_lines.append((block["bbox"][1], block["text"]))
+    # Sort by vertical position and join
+    title_lines = [t[1] for t in sorted(title_lines, key=lambda x: x[0])]
+    title = " ".join(title_lines).strip()
+    if title:
+        return title
     return "Untitled"
 
 def detect_headings(blocks):

@@ -1,5627 +1,821 @@
 {
-  "title": "Beginning Japanese for Professionals: Book 1",
+  "title": "Welcome to the “Connecting the Dots” Challenge",
   "outline": [
     {
       "level": "H1",
-      "text": "BEGINNING JAPANESE FOR PROFESSIONALS:",
+      "text": "Welcome to the “Connecting the Dots” Challenge",
       "page": 1,
-      "font_size": 28.079999923706055
+      "font_size": 20.0
     },
     {
       "level": "H1",
-      "text": "BOOK 1",
+      "text": "Rethink Reading. Rediscover Knowledge What if every time you opened a PDF, it didn’t just",
       "page": 1,
-      "font_size": 28.079999923706055
+      "font_size": 14.0
     },
     {
       "level": "H1",
-      "text": "Emiko Konomi",
+      "text": "sit there —it",
       "page": 1,
-      "font_size": 24.0
+      "font_size": 14.0
     },
     {
       "level": "H1",
-      "text": "Beginning Japanese for Professionals: Book 1",
+      "text": "spoke to you connected ideas",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": ", and narrated meaning",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "across your entire library? That’s the future we’re building — and we want",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "you to help shape it.",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "In the Connecting the Dots Challenge",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": ", your mission is to reimagine the humble PDF as an intelligent, interactive experience—one that",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "understands structure surfaces insights",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": ", and responds to you",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "like a trusted research companion. The Journey Ahead",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Round 1: Kick things off by building the brains — extract structured outlines from",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "raw PDFs with blazing speed and pinpoint accuracy. Then, power it up with on-device intelligence that understands sections and links related",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "ideas together. Round 2:",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "It’s showtime! Build a beautiful, intuitive reading webapp using Adobe’s PDF Embed API. You will be using your Round 1 work to design a",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "futuristic webapp. Why This Matters",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "In a world flooded with documents, what wins is not more content — it’s context",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": ". You’re not just building tools — you’re building the future of how we read, learn, and connect",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": ". No matter your background — ML hacker, UI builder, or insight whisperer — this is your stage.",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Are you in? It’s time to read between the lines. Connect the dots. And build a PDF",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "experience that feels like magic",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": ". Let’s go.",
+      "page": 1,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Round 1A: Understand Your Document",
       "page": 2,
-      "font_size": 25.920000076293945
+      "font_size": 20.0
     },
     {
-      "level": "H2",
-      "text": "Emiko Konomi Portland State University",
+      "level": "H1",
+      "text": "Challenge Theme: Connecting the Dots Through Docs Your Mission",
       "page": 2,
-      "font_size": 19.920000076293945
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "You are free to The licensor cannot revoke these freedoms as long as you follow the license terms",
+      "level": "H1",
+      "text": "You're handed a PDF — but instead of simply reading it, you're tasked with making sense of it like a machine would. Your job is to extract a structured",
+      "page": 2,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "outline of the document — essentially the Title",
+      "page": 2,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": ", and headings like , and",
+      "page": 2,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "— in a clean, hierarchical format. This outline will be the",
+      "page": 2,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "foundation for the rest of your hackathon journey.",
+      "page": 2,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Why This Matters PDFs are everywhere — but machines don’t naturally understand their",
+      "page": 2,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "structure. By building an outline extractor, you’re enabling smarter document experiences, like semantic search, recommendation systems, and insight",
+      "page": 2,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "generation. What You Need to Build",
+      "page": 2,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "You must build a solution that: Accepts a",
+      "page": 2,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "PDF file (up to 50 pages)",
+      "page": 2,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Extracts: Title",
+      "page": 2,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Headings: H1, H2, H3 (with level and page number)",
+      "page": 2,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Outputs a valid JSON file in the format below: \"title\": \"Understanding AI\",",
+      "page": 2,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "\"outline\": [ { \"level\": \"H1\", \"text\": \"Introduction\", \"page\": 1 },",
+      "page": 2,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "{ \"level\": \"H2\", \"text\": \"What is AI?\", \"page\": 2 }, { \"level\": \"H3\", \"text\": \"History of AI\", \"page\": 3 }",
+      "page": 2,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "You Will Be Provided sample input PDF",
+      "page": 2,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "(e.g., sample.pdf) sample ground truth output",
+      "page": 2,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "(sample.json) for format clarity",
+      "page": 2,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Sample Dockerfile Sample Solution",
       "page": 3,
-      "font_size": 12.0
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Under the following terms Published by Portland State University",
+      "level": "H1",
+      "text": "Docker Requirements Please ensure your Dockerfile is compatible with AMD64",
       "page": 3,
-      "font_size": 12.0
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Library Portland, OR 97207-1151",
+      "level": "H1",
+      "text": "architecture. Since we will build and run the image on an AMD64 machine, your base image and any dependencies should support",
       "page": 3,
-      "font_size": 12.0
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Cover photo: courtesy of Katharine Ross",
+      "level": "H1",
+      "text": "linux/amd64. Optionally, you can include the following in your Dockerfile to explicitly specify the platform: FROM --",
       "page": 3,
-      "font_size": 12.0
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Accessibility Statement",
+      "level": "H1",
+      "text": "platform=linux/amd64 <base_image> CPU architecture:",
+      "page": 3,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "amd64 (x86_64) No GPU dependencies",
+      "page": 3,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Model size (if used) ≤ 200MB Should work offline — no network/internet calls",
+      "page": 3,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Expected Execution We will build the docker image using the following command:",
+      "page": 3,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "```docker build --platform linux/amd64 -t mysolutionname:somerandomidentifier```",
+      "page": 3,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "After building the image, we will run the solution using the run command specified in the submitted instructions.",
+      "page": 3,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "```docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output -- network none mysolutionname:somerandomidentifier```",
+      "page": 3,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Your container should: Automatically process all PDFs from /app/input directory,",
+      "page": 3,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "generating a corresponding filename.json in /app/output for each filename.pdf",
+      "page": 3,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "output.json Constraints",
+      "page": 3,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Constraint Requirement",
+      "page": 3,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Execution time",
+      "page": 3,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "≤ 10 seconds for a 50-page PDF",
+      "page": 3,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Model size  ≤ 200MB (if used) Network",
       "page": 4,
-      "font_size": 16.079999923706055
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Accessibility Statement CC BY 4.0",
+      "level": "H1",
+      "text": "No internet access allowed",
       "page": 4,
-      "font_size": 12.0
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Accessibility of Beginning Japanese I",
+      "level": "H1",
+      "text": "Runtime Must run on CPU (amd64),",
       "page": 4,
-      "font_size": 16.079999923706055
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Beginning Japanese for Professionals: Book 1",
+      "level": "H1",
+      "text": "your solution should run on the system with 8 CPUs and",
       "page": 4,
-      "font_size": 12.0
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "CC BY 4.0",
+      "level": "H1",
+      "text": "16 GB RAM configurations Scoring Criteria",
       "page": 4,
-      "font_size": 12.0
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "chapter transcripts can be found under H2 Drill Tape Script. . Kiite kudasai.",
+      "level": "H1",
+      "text": "Criteria Max",
+      "page": 4,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Points Heading Detection Accuracy (Precision +",
+      "page": 4,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Recall) Performance (Time & Size Compliance)",
+      "page": 4,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Bonus: Multilingual Handling (e.g., Japanese)",
+      "page": 4,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Total Submission Checklist",
+      "page": 4,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Git Project with a working Dockerfile in the root director and A working",
+      "page": 4,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Dockerfile All dependencies installed within the container",
+      "page": 4,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "A README.md that explains: Your approach",
+      "page": 4,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Any models or libraries used How to build and run your solution (This is purely for",
+      "page": 4,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "documentation purpose, your solution should run using the “Expected Execution” section above.",
+      "page": 4,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Pro Tips Don’t rely solely on font sizes for heading level determination —",
+      "page": 4,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "headings in some PDFs break that assumption. Test your solution across both simple and complex PDFs.",
+      "page": 4,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Make your code modular — you’ll reuse this structure in Round 1B.",
+      "page": 4,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Important – Please keep your Git Repo private till the competition deadline, you will be informed, when to make the repo public.",
       "page": 5,
-      "font_size": 12.0
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "This accessibility statement has been adopted and adapted from Accessibility Statement",
+      "level": "H1",
+      "text": "What Not to Do Do not hardcode headings or file-specific logic",
       "page": 5,
-      "font_size": 11.039999961853027
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "and Appendix A: Checklist for Accessibility",
+      "level": "H1",
+      "text": "Do not make API or web calls Do not exceed the runtime/model size constraints",
       "page": 5,
-      "font_size": 11.039999961853027
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "found in Accessibility Toolkit - 2nd Edition",
+      "level": "H1",
+      "text": "[[Public Dataset Folder]] (For Sample Input and Output Files, please refer to the appendix)",
       "page": 5,
-      "font_size": 11.039999961853027
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "BCcampus, and is licensed under a Creative Commons Attribution 4.0 International License",
-      "page": 5,
-      "font_size": 11.039999961853027
-    },
-    {
-      "level": "H3",
-      "text": "About the Book About the Author",
+      "level": "H1",
+      "text": "Round 1B: Persona-Driven Document Intelligence",
       "page": 6,
-      "font_size": 16.079999923706055
+      "font_size": 20.0
     },
     {
-      "level": "H3",
-      "text": "Acknowledgments",
+      "level": "H1",
+      "text": "Theme: “Connect What Matters — For the User Who Matters”",
       "page": 6,
-      "font_size": 16.079999923706055
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Table of Contents",
+      "level": "H1",
+      "text": "Challenge Brief (For Participants) You will build a system that acts as an intelligent document analyst, extracting",
+      "page": 6,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "and prioritizing the most relevant sections from a collection of documents based on a specific persona and their job-to-be-done.",
+      "page": 6,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Input Specification Document Collection",
+      "page": 6,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": ": 3-10 related PDFs Persona Definition",
+      "page": 6,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": ": Role description with specific expertise and focus areas",
+      "page": 6,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Job-to-be-Done : Concrete task the persona needs to accomplish",
+      "page": 6,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Document collection, persona and job-to-be-done can be very diverse. So, the solution that teams need to build needs to be generic to generalize to this",
+      "page": 6,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "variety. Documents can be from any domain (Example: Research papers,",
+      "page": 6,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "school/college books, financial reports, news articles etc.) Persona can again be very diverse (Example: Researcher, Student,",
+      "page": 6,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Salesperson, Journalist, Entrepreneur etc) Job-to-be-done: This will be related to the persona (Example:",
+      "page": 6,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Provide a literature review for a given topic and available research papers, What should I study for Organic Chemistry given the",
+      "page": 6,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "chemistry documents, Summarize the financials of corporation xyz given the detailed year end financial reports etc.)",
+      "page": 6,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Sample Test Cases Test Case 1: Academic Research",
+      "page": 6,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Documents : 4 research papers on \"Graph Neural Networks for",
+      "page": 6,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Drug Discovery\" Persona",
+      "page": 6,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": ": PhD Researcher in Computational Biology Job",
+      "page": 6,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": ": \"Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks\"",
+      "page": 6,
+      "font_size": 14.0
+    },
+    {
+      "level": "H1",
+      "text": "Test Case 2: Business Analysis Documents",
       "page": 7,
-      "font_size": 16.079999923706055
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "BEGINNING JAPANESE FOR PROFESSIONALS: BOOK 1",
+      "level": "H1",
+      "text": ": 3 annual reports from competing tech companies (2022-2024)",
       "page": 7,
-      "font_size": 12.0
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Before We Begin",
-      "page": 10,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Persona : Investment Analyst",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Greetings and Ritual Expressions kanji",
-      "page": 10,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Job : \"Analyze revenue trends, R&D investments, and market",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "hiragana katakana",
-      "page": 10,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "positioning strategies\" Test Case 3: Educational Content",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "hiragana katakana",
-      "page": 10,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Documents : 5 chapters from organic chemistry textbooks",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Hiragana kanji",
-      "page": 10,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Persona : Undergraduate Chemistry Student",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "kana furigana",
-      "page": 10,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Job : \"Identify key concepts and mechanisms for exam preparation",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Have fun!",
-      "page": 11,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "on reaction kinetics\" Required Output",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Senri no michi mo ippo kara Kiite kudasai.",
-      "page": 12,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Output JSON format: Refer challenge1b_output.json",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Itte kudasai. Kotaete kudasai.",
-      "page": 12,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "The output should contain: Metadata:",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Mou ichido onegai-shimasu X-san ni itte kudasai",
-      "page": 12,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Input documents Persona",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Ｘさんに言ってください Ohayou",
-      "page": 12,
-      "font_size": 12.960000038146973
+      "level": "H1",
+      "text": "Job to be done Processing timestamp",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Ohayou gozaimasu. Ohayou",
-      "page": 12,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Extracted Section: Document",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Ohayou gozaimasu +Konnichiwa",
-      "page": 12,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Page number Section title",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "+Konbanwa",
-      "page": 12,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Importance_rank Sub-section Analysis:",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Gozaimasu Konnichiwa",
-      "page": 13,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Document Refined Text",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "konbanwa Douzo",
-      "page": 13,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Page Number Constraints",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Aa, doumo. douzo",
-      "page": 13,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Must run on CPU",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "a(a) doumo",
-      "page": 13,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "only Model size",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "+arigatou +arigatou gozaimasu",
-      "page": 13,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "≤ 1GB Processing time ≤ 60",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "+arigatou gozaimashita. Douzo",
-      "page": 13,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "seconds for document collection (3-5",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Arigatou (gozaimasu) Doumo",
-      "page": 13,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "documents) No internet access",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "arigatou gozaimasu sumimasen",
-      "page": 13,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "allowed during execution",
+      "page": 7,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Gozaimashita Honda-san",
-      "page": 13,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Deliverables approach_explanation.md (300-500 words explaining",
+      "page": 8,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "Hai. san",
-      "page": 13,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "methodology) Dockerfile and execution instructions",
+      "page": 8,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "hai sensei",
-      "page": 13,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Sample input/output for testing Scoring Criteria",
+      "page": 8,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "san sensei",
-      "page": 13,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Criteria Max",
+      "page": 8,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "san Hai",
-      "page": 13,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Points Description",
+      "page": 8,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "A, sumimasen. Ie, ie.",
-      "page": 14,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Section Relevance How well selected sections match",
+      "page": 8,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "sumimasen ie, iie",
-      "page": 14,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "persona + job requirements with proper stack ranking",
+      "page": 8,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "iya +sumimasen deshita",
-      "page": 14,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Sub-Section Relevance Quality of granular subsection",
+      "page": 8,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "+gomen +gomen nasai",
-      "page": 14,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "extraction and ranking",
+      "page": 8,
+      "font_size": 14.0
     },
     {
-      "level": "H3",
-      "text": "+dou itashimashite Sumimasen",
-      "page": 14,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Appendix: https://github.com/jhaaj08/Adobe-India-",
+      "page": 9,
+      "font_size": 20.0
     },
     {
-      "level": "H3",
-      "text": "Sumimasen deshita Douzo",
-      "page": 14,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Jaa, itadakimasu Gochisou sama deshita.",
-      "page": 14,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "jaa, ja itadakimasu",
-      "page": 14,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "gochisou-sama gochisou-sama deshita",
-      "page": 14,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "gochisou-sama Itadakimasu",
-      "page": 14,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Gochisousama (deshita) itadakimasu",
-      "page": 14,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "gochisousama gaishimasu",
-      "page": 14,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Hai, douzo",
-      "page": 14,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Onegai-shimasu Shitsurei-shimasu.",
-      "page": 15,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Hai, douzo. shitsurei-shimasu",
-      "page": 15,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "+shitsurei-shimashita Shitsurei-shimasu",
-      "page": 15,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Shitsurei-shimashita Itte kimasu",
-      "page": 15,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Itte rasshai Tadaima.",
-      "page": 15,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Okaerinasai. itte kimasu",
-      "page": 15,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "itte rasshai Itte kimasu",
-      "page": 15,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "tadaima okaerinasai",
-      "page": 15,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Tadaima Itte kimasu",
-      "page": 15,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Hajimemashite. Sumisu desu",
-      "page": 15,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Douzo yoroshiku.",
-      "page": 15,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Hajimemashite ~desu",
-      "page": 16,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "~desu ka yoroshiku",
-      "page": 16,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yoroshiku onegai-shimasu Hajimemashite",
-      "page": 16,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hajimemashite or douzo yoroshiku onegai-shimasu.",
-      "page": 16,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "san desu ka. Ja, shitsurei-shimasu",
-      "page": 16,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Aa, otsukare-sama deshita. otuskare(-sama)",
-      "page": 16,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "otsukare-sama desu otuskare-sama deshita",
-      "page": 16,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ja, mata Sayonara",
-      "page": 16,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ja, mata sayonara/sayounara",
-      "page": 16,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ja, oyasumi Aa, oyasuminasai",
-      "page": 16,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "oyasumi oyasumi nasai",
-      "page": 17,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "(a, i, u, e, o) (n, t, s, k, p)",
-      "page": 17,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Table 1.  Syllables in Japanese",
-      "page": 17,
-      "font_size": 9.119999885559082
-    },
-    {
-      "level": "H3",
-      "text": "shi chi",
-      "page": 17,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "tsu kya",
-      "page": 17,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "gya sha",
-      "page": 17,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "cha nya",
-      "page": 17,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hya pya",
-      "page": 17,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "bya mya",
-      "page": 17,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rya kyu",
-      "page": 17,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "gyu shu",
-      "page": 17,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "chu hyu",
-      "page": 17,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "pyu byu",
-      "page": 17,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "myu ryu",
-      "page": 17,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kyo gyo",
-      "page": 17,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sho cho",
-      "page": 17,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nyo hyo",
-      "page": 17,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "pyo byo",
-      "page": 17,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "myo ryo",
-      "page": 17,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "/aa/, /ii/, /uu/, /ee/ /oo/",
-      "page": 18,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "a/, /i/, /u/",
-      "page": 18,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "/t/, /s/, /k/, /p/",
-      "page": 18,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "i-t-te ki-ma-su I-p-pon",
-      "page": 18,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "I-k-ko i-s-sho",
-      "page": 18,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "/n/ konnichiwa",
-      "page": 18,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ko-n-ni-chi-wa hai",
-      "page": 18,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hai HAi",
-      "page": 18,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "haI SULT",
-      "page": 18,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "JAa DOumo",
-      "page": 18,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "DOuzo",
-      "page": 18,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "iIE saYONARA",
-      "page": 19,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "taDAIMA oHAYOU",
-      "page": 19,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yoROSHIKU aRIgatou",
-      "page": 19,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "shiTSUrei-shimasu suMIMASEn",
-      "page": 19,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "HA desu Guree desu.",
-      "page": 19,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Guree-san desu ka. Hajimemashite Honda desu.",
-      "page": 19,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Honda-san desu ka. Hajimemashite",
-      "page": 19,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ohayou ohayou gozaimasu",
-      "page": 21,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "arigatou gozaimasu arigatou gozaimasita",
-      "page": 21,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sayonara itte kimasu",
-      "page": 21,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "arigatou dou mo",
-      "page": 21,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "san sensei",
-      "page": 21,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "gomen gomen nasai",
-      "page": 21,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hai jaa",
-      "page": 21,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Wakarimasu ka Iie, amari wakarimasen nee.",
-      "page": 22,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Wakarimasen ka. Ee.",
-      "page": 22,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "wakarimasu amari",
-      "page": 22,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "wakarimasen nee",
-      "page": 22,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "zenzen yoku",
-      "page": 22,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "tokidoki shimasu",
-      "page": 22,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "tabemasu nomimasu",
-      "page": 22,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "tsukurimasu norimasu",
-      "page": 22,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Wakarimasu ka -masu",
-      "page": 23,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "–masen Hai",
-      "page": 23,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Iie Hai",
-      "page": 23,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hai Wakarimasu ka.",
-      "page": 23,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Hai, wakarimasu Wakarimasen ka",
-      "page": 23,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ee, sumimasen Iie",
-      "page": 23,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Iya iie",
-      "page": 23,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Wakarimasu ka. Iie, wakarimasen",
-      "page": 23,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Wakarimasen ne Iya, wakarimasu yo",
-      "page": 23,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ne(e) ne(e)",
-      "page": 23,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Tabemasu Tabemasu ka",
-      "page": 23,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ne(e)",
-      "page": 23,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Yoku nomimasu nee. Wakarimasen nee.",
-      "page": 24,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Tabemasen ne? Amari",
-      "page": 24,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "zenzen Zenzen",
-      "page": 24,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Amari tabemasen.",
-      "page": 24,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Zenzen hanashimasen. Yoku",
-      "page": 24,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Yoku wakarimasu. Yoku kaimasu",
-      "page": 24,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Shimasu ka. Ee, yoku shimasu.",
-      "page": 24,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Tabemasu ka. Ee, yoku tabemasu.",
-      "page": 24,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Shimasu ka. Iie, amari shimasen nee.",
-      "page": 24,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Tabemasu ka. Iie, amari tabemasen nee.",
-      "page": 24,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ee, zenzen shimasen nee. Tabemasen ka.",
-      "page": 24,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ee, zenzen tabemasen nee.",
-      "page": 24,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Are, kaimasu ka. Ee, kaimasu kedo…",
-      "page": 25,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kore wa? Aa, sore mo chotto irimasu ne.",
-      "page": 25,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "are kaimasu",
-      "page": 25,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kedo kore",
-      "page": 25,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sore chotto",
-      "page": 25,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "irimasu kedo",
-      "page": 25,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "takusan mimasu",
-      "page": 26,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "tsukaimasu kikimasu",
-      "page": 26,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yomimasu kakimasu",
-      "page": 26,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hanasimasu Are, tabemasu ka.",
-      "page": 26,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kore, zenzen wakarimasen. Honda-san nomimasu ka.",
-      "page": 26,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kore tsukaimasu ne Watashi kore ypoku wakarimasu.",
-      "page": 26,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kore, watashi yoku wakarimasu Ko-so-a-do",
-      "page": 26,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "this that",
-      "page": 26,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kore sore",
-      "page": 26,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "are",
-      "page": 26,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "dore ko-so-a-do",
-      "page": 27,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kedo Kedo",
-      "page": 27,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kore wa kaimasu kedo, are wa kaimasen. Sumimasen kedo, wakarimasen.",
-      "page": 27,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Honda desu kedo, shiturei-shimasu. Kaimasu kedo",
-      "page": 27,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kedo kedo",
-      "page": 27,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "keredo, kedomo, keredomo",
-      "page": 27,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kedo Watashi wa mimasu kedo",
-      "page": 27,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kore wa wakarimasu. Ashita wa kaimasu.",
-      "page": 27,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Honda-san mo mimasu.",
-      "page": 27,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kore mo wakarimasen. Ashita mo kaimasu.",
-      "page": 28,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kore, mimasu ka. Hai, sore wa mimasu kedo, are wa mimasen.",
-      "page": 28,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kore, shimasu ka. Hai, sore wa shimasu kedo, are wa shimasen.",
-      "page": 28,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Mimasu yo. Kore mo mimasu ka.",
-      "page": 28,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Shimasu yo. Kore mo shimasu ka.",
-      "page": 28,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ikimasen ka. Kyou wa chotto…",
-      "page": 29,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Aa, sou desu ka. Ja, mata.",
-      "page": 29,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Yamada-san wa? Watashi wa ikimasu yo.",
-      "page": 29,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ikimasu ikimasen ka",
-      "page": 29,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kyou chotto",
-      "page": 29,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sou sou desu ka",
-      "page": 29,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Yamada watashi",
-      "page": 29,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "boku ashita",
-      "page": 29,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "mainichi kimasu",
-      "page": 29,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kaerimasu dekakemasu",
-      "page": 29,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yasumimasu",
-      "page": 29,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Tabemasen ka Ikimasen ka.",
-      "page": 30,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Doumo Arigatou gozaimasu",
-      "page": 30,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "chotto Kore tabemasen ka",
-      "page": 30,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Arigatou gozaimasu. Ja, chotto itadakimasu Iyaa, chottooo",
-      "page": 30,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Chotto Chotto",
-      "page": 30,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "chotto chotto",
-      "page": 30,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ja, chotto itadakimasu. Chotto wakarimasu kedo",
-      "page": 30,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Suimasen. Chotto onegai-shimasu Chotto wakarimasen nee",
-      "page": 30,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Chotto, yasumimasen ka? Aizuchi",
-      "page": 30,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hai soo desu ka, aa",
-      "page": 30,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Aizuchi",
-      "page": 30,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nee Aa, soo desu ka.",
-      "page": 31,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Watashi Boku",
-      "page": 31,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "watashi. you",
-      "page": 31,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "san sensei",
-      "page": 31,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "san san",
-      "page": 31,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "anata ‘ anata",
-      "page": 31,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "san sensei",
-      "page": 31,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "watashi ne(e),",
-      "page": 31,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ikimasu ka. Hai, ikimasu. Honda-san mo ikimasen ka",
-      "page": 32,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Shimasu ka. Hai, shimasu.",
-      "page": 32,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Honda-san mo shimasen-ka. Ikimasu yo.",
-      "page": 32,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Aa, sou desu ka. Jaa watashi mo ikimasu. Shimasu yo.",
-      "page": 32,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Aa, sou desu ka. Jaa, watashi mo shimasu.",
-      "page": 32,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Are, dekimasita ka",
-      "page": 33,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ee, kinou tsukurimasita. Chotto renshuu-shimasen ka?",
-      "page": 33,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Hai, wakarimashita. dekimasu",
-      "page": 33,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "dekimashita kinou",
-      "page": 33,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "renshuu renshuu-shimasu",
-      "page": 33,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "wakarimashita benkyou",
-      "page": 33,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "benkyou-shimasu meeru",
-      "page": 33,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "meeru-shimasu kopii",
-      "page": 33,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kopii-shimasu denwa",
-      "page": 33,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "denwa-shimsu unten",
-      "page": 33,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "unten-shimasu ototoi",
-      "page": 33,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "masu masu",
-      "page": 33,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "mashita masen",
-      "page": 33,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "masen deshita",
-      "page": 33,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Table 2.  Affirmative forms of verbs in both past and non-past",
-      "page": 34,
-      "font_size": 9.119999885559082
-    },
-    {
-      "level": "H3",
-      "text": "-masu -masen",
-      "page": 34,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "-mashita -masen deshita",
-      "page": 34,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "shimasu renshuu",
-      "page": 34,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "benkyou shimasu",
-      "page": 34,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Meeru-shimasu yo. Getto-shimasu",
-      "page": 34,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Appuroodo-shimasu Renshuu-shimasu ka.",
-      "page": 34,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ee, chotto renshuu-shimasen ka. Kaimasu ka.",
-      "page": 34,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ee, chotto kaimasenka. Yasumimashita ne.",
-      "page": 34,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kinou wa yasumimashita kedo, ototoi wa yasumimasen deshita. Ikimashita ne.",
-      "page": 34,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kinou wa ikimashita kedo, ototoi wa ikimasen deshita.",
-      "page": 34,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "iie sore",
-      "page": 35,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "are? Are wa?",
-      "page": 35,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ashita yasumimasu. Ashita wa yasumimasu.",
-      "page": 35,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ashita mo yasumimasu. chotto",
-      "page": 35,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sou desu ka kedo",
-      "page": 35,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Dialogue 1",
-      "page": 36,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Dialogue 2",
-      "page": 37,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Dialogue 3 Dialogue 4",
-      "page": 38,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ii otenki desu nee. A, Emily-san, gakkou desu ka.",
-      "page": 39,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ie, kyou wa gakkou ja nai desu. Arubaito desu.",
-      "page": 39,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "anou ima",
-      "page": 39,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nan-ji desu",
-      "page": 39,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "etto hachi-ji",
-      "page": 39,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "tenki otenki",
-      "page": 39,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ii otenki gakkou",
-      "page": 39,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ja nai desu arubaito",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "baito arubaito",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "han ame",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yuki atsui",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "samui shigoto",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kaisha kaimono",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sanpo yasumi",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ichi-ji Ni-ji",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "San-ji Yo-ji",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Go-ji Roku-ji",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Shichi-ji Hachi-ji",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ku-ji Juu-ji",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Juu-ichi-ji Juu-ni-ji",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Rei-ji Nan-ji",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "han ichi-ji-han",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "desu ja nai des",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "desu ja nai desu",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ame desu yo Kore wa gakkou desu ka.",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Honda-san ja nai desu ka?",
-      "page": 40,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ima, na-ji desu ka. - Yo-ji ja nai desu ka? -",
-      "page": 41,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "San-ji desu yo Anou, yo-ji ja nai desu ka. -",
-      "page": 41,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "X wa Y desu Honda-san wa shigoto desu",
-      "page": 41,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Honda-san wa Panda desu. –ji",
-      "page": 41,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "–han ima",
-      "page": 41,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Anou Etto",
-      "page": 41,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Anou etto",
-      "page": 41,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Anou etto",
-      "page": 41,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "anou etto",
-      "page": 41,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Anou etto",
-      "page": 41,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "desu ne",
-      "page": 41,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Imaaa, anooo, Honda-san waaaa, shigotooo desu. Ashita desu ne, anoo desu ne zenbu desu ne tsukurimasu.",
-      "page": 42,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ima ku-ji desu ka. Iya, juu-ji desu yo.",
-      "page": 42,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ima san-ji desu ka Iya, yo-ji desu yo.",
-      "page": 42,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kyou wa baito desu ka Ie, baito ja nai desu",
-      "page": 42,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kyou wa ame desu ka. Ie, ame ja nai desu",
-      "page": 42,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ajia Ginkou no Oda desu. Hajimemashite.",
-      "page": 43,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Oda-san desu ka. J-Netto no Maikeru Sumisu desu.",
-      "page": 43,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Douzo yoroshiku onegai-shimasu. Minasan, chotto shoukai-shimasu",
-      "page": 43,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ryuugakusei no Emirii-san desu. Hajimemashite. Emirii Hiru desu.",
-      "page": 43,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Amerika no Pootorando shuuritsu daigaku, daigakuin no ichi-nensei desu. Senkou wa bijinesu desu.",
-      "page": 43,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Douzo yoroshiku onegai-shimasu.",
-      "page": 43,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ajia Ginkou",
-      "page": 44,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Oda J-netto",
-      "page": 44,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Minas an shoukai",
-      "page": 44,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ryuugakusei Emirii",
-      "page": 44,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Hiru Amerika",
-      "page": 44,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "USA Pootorando",
-      "page": 44,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "shuuritsu daigaku",
-      "page": 44,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "daigakuin ichi-nen-sei",
-      "page": 44,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "senkou bijinesu",
-      "page": 44,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "dare doko",
-      "page": 44,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nani-jin minna",
-      "page": 44,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "gakusei daigakusei",
-      "page": 44,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "tomodachi kuni",
-      "page": 44,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ni-nen-sei san-nen-sei",
-      "page": 44,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yo-nen-sei nan-nen-sei",
-      "page": 44,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ekishi keizai",
-      "page": 44,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "seiji meishi",
-      "page": 44,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "jin Nihon",
-      "page": 45,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Igirisu Amerika",
-      "page": 45,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "U.S. Kankoku",
-      "page": 45,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Roshia Chuugoku",
-      "page": 45,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Taiwan Furansu",
-      "page": 45,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Doitsu Supein",
-      "page": 45,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Itaria Indo",
-      "page": 45,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Betonamu doko no kuni",
-      "page": 45,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nani-jin bijinesu",
-      "page": 45,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "maaketingu fainansu",
-      "page": 45,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "keiri sapurai chein",
-      "page": 45,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rekishi-gaku* keizai-gaku*",
-      "page": 45,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "seiji-gaku* suugaku",
-      "page": 45,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "bungaku eibungaku",
-      "page": 45,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nihon bungaku gengo-gaku*",
-      "page": 46,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "shinri-gaku* tetsugaku*",
-      "page": 46,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "shakai-gaku* butsuri-gaku*",
-      "page": 46,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kagaku seibutsu-gaku*",
-      "page": 46,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "tenmongaku* gaku",
-      "page": 46,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "pasokon no kaisya kaisya no pasokon",
-      "page": 46,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "America no pasokon no kaisya America no kaisya no pasokon",
-      "page": 46,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Nihon no daigaku J-Netto no Maikeru",
-      "page": 46,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "watashi no baggu san-ji no baito",
-      "page": 47,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Amerika no Pootorando daigakuin no ichi-nensei",
-      "page": 47,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ryuugakusei no Hiru-san simasu,",
-      "page": 47,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kopii-shimasu sumaho",
-      "page": 47,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "pasokon hajimemashite,",
-      "page": 47,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "douzo yoroshiku onegai shimasu",
-      "page": 47,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Amerika desu ka. Hai, Amerika no kaisha desu.",
-      "page": 48,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Furansu desu ka Hai, furansu no kaisha desu.",
-      "page": 48,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Sensei wa Amerikajin desu ka. Ie, Amerikajin ja nai desu",
-      "page": 48,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Sensei wa furansujin desu ka. Ie, furansujin ja nai desu.",
-      "page": 48,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Anou, o-namae wa? Maikeru Sumisu desu.",
-      "page": 49,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Nihongo o-jouzu desu nee. Ie ie, mada mada desu.",
-      "page": 49,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Sore, nan desu ka. Kore desu ka. Kyou no sukejuuru desu.",
-      "page": 49,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ano kata, donata desu ka. Ano onna no hito desu ka",
-      "page": 49,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Tookyoo-daigaku no Satou-sensei desu namae",
-      "page": 49,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "onamae nihongo",
-      "page": 49,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "jouzu ojouzu",
-      "page": 49,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "mada mada nan",
-      "page": 49,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sukejuuru ano",
-      "page": 49,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hito donata",
-      "page": 50,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "onna kata",
-      "page": 50,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "toukyou-daigaku Satou",
-      "page": 50,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "otoko heta",
-      "page": 50,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "keitai sumaho",
-      "page": 50,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "pasokon baggu",
-      "page": 50,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kaban nihongo",
-      "page": 50,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "eigo chuugokugo",
-      "page": 50,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kankokugo furansugo",
-      "page": 50,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "supeingo rosiago",
-      "page": 50,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "itariago doitsugo",
-      "page": 50,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "betonamugo arabiago",
-      "page": 50,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nanigo Sore, nan desu ka.",
-      "page": 50,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kore desu ka. Kyou no sukejuuru desu.",
-      "page": 50,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Wakarimasu ka? -Watashi desu ka. Iya, amari…",
-      "page": 51,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kore wa sumaho desu ka. Kore desu ka. Hai.",
-      "page": 51,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Sumaho desu ka? Hai. 2-3-2 Ano",
-      "page": 51,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ko-so-a-do kore, sore, are, dore",
-      "page": 51,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kono, sono, ano, dono",
-      "page": 51,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ko-so-a-do kore",
-      "page": 51,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kono kore",
-      "page": 51,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kono kore",
-      "page": 51,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kono kaisha kono nihon no kaisya",
-      "page": 51,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Furansugo, wakarimasu ka Furansugo desu ka. Ie, wakarimasen.",
-      "page": 51,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Chuugokugo, wakarimasu ka. Chuugokugo desu ka.",
-      "page": 51,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ie, wakarimasen.",
-      "page": 51,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kore, dare no keitai desuka? Kono keitai desu ka. Wakarimasen nee",
-      "page": 52,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Are, doko no kaisha desu ka. Ano kaisya desu ka. Wakarimasen nee.",
-      "page": 52,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Doyou to nichiyou wa yasumi desu ne Mochiron desu.",
-      "page": 52,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ajia ginkou no apo wa getsuyoubi deshita ne. : E? Kayoubi ja nakatta desu ka.",
-      "page": 52,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Aa, sou deshita ne! Sumimasen.",
-      "page": 52,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "doyou(bi) nichiyou(bi)",
-      "page": 53,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "mochiron apo",
-      "page": 53,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "getsuyoubi deshita",
-      "page": 53,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "desu) kayoubi",
-      "page": 53,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "X ja nakatta desu ka itsu",
-      "page": 53,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "jugyou shukudai",
-      "page": 53,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "shiken kaigi",
-      "page": 53,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "orienteishon purezen",
-      "page": 53,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hon kyoukasho",
-      "page": 53,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "manga anime",
-      "page": 53,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nooto kami",
-      "page": 53,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "enpitsu pen",
-      "page": 53,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nichi-youbi getsu-youbi",
-      "page": 53,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ka-youbi sui-youbi",
-      "page": 53,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "moku-youbi kin-youbi",
-      "page": 53,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "do-youbi nan-youbi",
-      "page": 53,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Youbi",
-      "page": 53,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "getsu, getsu-you, getsu-youbi Getsu-sui-kin",
-      "page": 54,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kaa-moku Do-nichi",
-      "page": 54,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nan-youbi Nihon to America",
-      "page": 54,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Asia Ginkou no Oda-san to J-Netto no Sumisu-san Kayoubi to mokuyoubi no jugyou",
-      "page": 54,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kono nihongo no kyoukasho to ano hon desu",
-      "page": 54,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "deshita , X",
-      "page": 54,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ja nakatta desu desu",
-      "page": 54,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "deshita",
-      "page": 54,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Table 3. Conjucation of non-past and past-forms of -desu in the affirmative and negative.",
-      "page": 54,
-      "font_size": 9.119999885559082
-    },
-    {
-      "level": "H3",
-      "text": "Nihongo desu. Nihongo ja nai desu.",
-      "page": 54,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Nihongo deshita. Nihongo ja nakatta desu.",
-      "page": 54,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kaigi wa ashita deshita ne. Iya, asatte ja nakatta desu ka?",
-      "page": 55,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kyou wa getsuyoubi desu ne. E? Kayoubi ja nai desu ka?",
-      "page": 55,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kyou wa Mokuyoubi desu ne. E? Kinyoubi ja nai desu ka?",
-      "page": 55,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kinou wa ame deshita ne. Ee, ame ja nakatta desu ka.",
-      "page": 55,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Shike wa getsuyou deshita ne. Ee, getsuyou ja nakatta desu ka.",
-      "page": 55,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "desu deshita",
-      "page": 56,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Y/? (2-2-1) sore",
-      "page": 56,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sono E?’",
-      "page": 56,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Nihonjin ja nakatta desu.",
-      "page": 56,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Nihonjin ja nakatta desu ka. Part A",
-      "page": 57,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Part B",
-      "page": 58,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Dialogue 1 Dialogue 2",
-      "page": 59,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Dialogue 3 Dialogue 4",
-      "page": 60,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ii apaato, arimasu ka. Sukunai desu nee.",
-      "page": 61,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kono apaato wa dou desu ka? Sou desu nee. Chotto takaku naidesu ka.",
-      "page": 61,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "apaato arimasu",
-      "page": 61,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sukunai dou",
-      "page": 61,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sou desu nee takai",
-      "page": 61,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "takakunai manshon",
-      "page": 61,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "heya ikaga",
-      "page": 61,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ooi yasui",
-      "page": 61,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ookii chiisai",
-      "page": 61,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "atarashii furui",
-      "page": 61,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": ", -katta , and -",
-      "page": 62,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ku. takai takaku nai",
-      "page": 62,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "katta nai",
-      "page": 62,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nakatta takakatta",
-      "page": 62,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "takaku nakatta desu",
-      "page": 62,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Takai desu. Takaku nai des.",
-      "page": 62,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Takakatta desu. Takaku nakatta desu.",
-      "page": 62,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Table 4.  Examples of affirmative and negative non-past types of verb, noun, and adjective sentences in Japanese.",
-      "page": 62,
-      "font_size": 9.119999885559082
-    },
-    {
-      "level": "H3",
-      "text": "Wakarimasu. Wakarimasen.",
-      "page": 62,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Nihon desu. Nihon ja nai desu.",
-      "page": 62,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Takai desu. Takaku nai desu.",
-      "page": 62,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Table 5. Affirmative and negative past types of verb, noun, and adjective sentences in Japanese.",
-      "page": 63,
-      "font_size": 9.119999885559082
-    },
-    {
-      "level": "H3",
-      "text": "Wakarimashita. Wakarimasen",
-      "page": 63,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "deshita. Nihon deshita.",
-      "page": 63,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Nihon ja nakatta desu. Takakatta desu.",
-      "page": 63,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Takaku nakatta desu. Ii desu",
-      "page": 63,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Yoku nai desu Yokatta desu",
-      "page": 63,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Yoku nakatta desu. Yoku",
-      "page": 63,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yoku wakarimasu, yoku tabemasu Yokatta desu nee",
-      "page": 63,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Amerika no kaisha kono-sono-ano-dono",
-      "page": 63,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ano kaisha kono",
-      "page": 63,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Amerika no kaisha takai keitai",
-      "page": 63,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "takaku nai keitai chiisai takai keitai",
-      "page": 63,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kono Amerika no chiisai takai keitai",
-      "page": 63,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "chiisai takai kono Amerika no keitai kono watashi no keitai",
-      "page": 64,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "watashi no kono keitai arimasu",
-      "page": 64,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "arimasu arimasu",
-      "page": 64,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "arimasen nai desu",
-      "page": 64,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nai desu Arimasen",
-      "page": 64,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nai desu Sumaho ja nai desu",
-      "page": 64,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "→ Sumaho ja arimasen. Takaku nai desu.",
-      "page": 64,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "→ Takaku arimasen arimasen deshita",
-      "page": 64,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nakatta desu. Sumaho ja nakatta desu. → Sumaho ja arimasen deshita.",
-      "page": 64,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Takaku nakatta desu. → Takaku arimasen deshita.",
-      "page": 64,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Table 6. All the past forms of \"arimasen\" - affirmative and negative - as a verb sentence, noun sentence, and adjective sentence.",
-      "page": 64,
-      "font_size": 9.119999885559082
-    },
-    {
-      "level": "H3",
-      "text": "Arimasu. Nai desu. Arimasen.",
-      "page": 64,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Nihon desu. Nihon ja nai desu.",
-      "page": 64,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Nihon ja arimasen Takai desu.",
-      "page": 64,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Takaku nai desu. Takaku arimasen.",
-      "page": 64,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Table 7. All the non-past forms of \"arimasen\" - affirmative and negative - as a verb sentence, noun sentence, and adjective sentence.",
-      "page": 65,
-      "font_size": 9.119999885559082
-    },
-    {
-      "level": "H3",
-      "text": "Arimashita. Nakatta desu. Arimasen deshita.",
-      "page": 65,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Nihon deshita. Nihon ja nakatta desu.",
-      "page": 65,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Nihon ja arimasen deshita. Takakatta desu.",
-      "page": 65,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Takaku nakatta desu. Takaku arimasen deshita.",
-      "page": 65,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kaisha ja arimasen Kaisha ja nai desu.",
-      "page": 65,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kaisha wa arimasen Kaisha wa nai desu",
-      "page": 65,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Takai desu ka. Iie, yasui desu yo.",
-      "page": 65,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Yasui desu ka. Iie, takai desu yo.",
-      "page": 65,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ii desu ka. Iie, amari yoku desu.",
-      "page": 65,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Yasui desu ka. Iie, amari yasuku desu.",
-      "page": 65,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Apaato desu. Iie, apaato ja arimasen.",
-      "page": 66,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Yasui desu ka. Iie, yasuku arimasen.",
-      "page": 66,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Are, takakatta desu ka. Ie, takaku nakatta desu yo.",
-      "page": 66,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Are, atarashikatta desu ka Ie, atarashiku nakatta desu yo.",
-      "page": 66,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Juu-go-ban wa ikura desu ka. Rokuman-nanasen-en desu.",
-      "page": 67,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Warukunai desu yo. Motto yasui no wa arimasen nee.",
-      "page": 67,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Chotto muzukashii desu nee. juugo",
-      "page": 67,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ban juugo-ban",
-      "page": 67,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ikura rokuman",
-      "page": 67,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nanasen rokuman-nanasen-en",
-      "page": 67,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "warui waruku nai",
-      "page": 67,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "motto motto yasui",
-      "page": 67,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "muzukashii doru",
-      "page": 67,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yasashii doru",
-      "page": 67,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ban",
-      "page": 67,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yon, yo shi",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nana shichi",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kyuu ( ~man, ~oku, ~chou",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "man oku,",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "~chou ichi,",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ichi ichi",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ichi-man juu",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "juu-man hyaku",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hyaku-man sen",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sen-man sen hyaku juu ichi man sen hyaku juu ichi",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hyaku sanbyaku",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nanbyaku roppyaku",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "happyaku sen",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sanzen; ?000 nanzen hassen",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nensei doru",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ban ji,",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "shichi –en",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "doru –ban",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nana, kyuu.",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "-ban Ichi-ban",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "CHI CHIBAN",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ichi-ban jouzu Ichi-ban atarashii",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ichiban ii daigaku",
-      "page": 68,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Table 8. Classifiers for numbers 1-10, as well as an unknown number, for suffixes -en, -doru, and -ban",
-      "page": 69,
-      "font_size": 9.119999885559082
-    },
-    {
-      "level": "H3",
-      "text": "-en -doru",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "-ban Ichi-en",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ichi-doru Ichi-ban",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ni-en Ni-doru",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ni-ban San-en",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "San-doru San-ban",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Yo-en Yon-doru",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Yon-ban Go-en",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Go-doru Go-ban",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Roku-en Roku-doru",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Roku-ban Nana-en",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Nana-doru Nana-ban",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Hachi-en Hachi-doru",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Hachi-ban Kyuu-en",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kyuu-doru Kyuu-ban",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Juu-en Juu-doru",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Juu-ban Nan-en",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Nan-doru Nan-ban",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yasui apaato Kono",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kono apaato watashi no apaato",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yasui no kore-sore-are-dore",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kore watashi no",
-      "page": 69,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kono atarashii apaato kono atarashii no",
-      "page": 70,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "watashi no kono kaban watashi no kore atarashii",
-      "page": 70,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Amerika no kaisha atarashii Amerika no",
-      "page": 70,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ka nee nee",
-      "page": 70,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nee Motto yasui no wa arimasen ka",
-      "page": 70,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Motto yasui no wa arimasen ka nee nee",
-      "page": 70,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ano hito dare desu ka? Dare desu ka nee.",
-      "page": 70,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Dare no kasa desu ka? Dare no desu ka nee.",
-      "page": 70,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Go-en desu ka. Ie-ie, gojuu-en desu yo.",
-      "page": 70,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Nihyaku-en desu ka. Ie-ie, nisen-en desu yo.",
-      "page": 70,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Takai desu nee. Ee, motto yasui no wa arimasen nee.",
-      "page": 70,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Chiisai desu nee. Ee, motto ookii no wa arimasen nee.",
-      "page": 70,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Minna, ookii desu nee. Ichiban ookii no wa, dore desu ka.",
-      "page": 70,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Minna, furui desu nee. Ichiban furui no wa, dore desu ka.",
-      "page": 71,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Sugoku kirei na apaato desu nee. De mo chotto tooku nai desu ka.",
-      "page": 72,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Sou desu ne. Amari benri ja nai desu nee. Zannen desu nee.",
-      "page": 72,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sugoi sugoku",
-      "page": 72,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kirei de mo",
-      "page": 72,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "tooi benri",
-      "page": 72,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "zannen kitanai",
-      "page": 72,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "chikai fuben",
-      "page": 72,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "dame yuumei",
-      "page": 72,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "no: watashi no keitai nihongo no",
-      "page": 72,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sensei na: kirei na nihongo",
-      "page": 72,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "benri na keitai kirei na apaato",
-      "page": 72,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "→ kirei na no",
-      "page": 72,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "amerika no yuumei na kaisha amerika no yuumei na no",
-      "page": 73,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Yoku wakarimasu. Sugoku kirei desu.",
-      "page": 73,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Yasuku kaimashita. Ookiku kakimasu.",
-      "page": 73,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Atarashiku tsukurimasu Kirei desu ka.",
-      "page": 73,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ee, sugoku kirei na apaato desu yo. Takai desu ka.",
-      "page": 73,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ee, sugoku takai apaato desu yo. Kirei desu ka.",
-      "page": 73,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Iya, kirei ja nai desu yo Tooi desu ka.",
-      "page": 73,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Iya, tooku nai desu yo.",
-      "page": 73,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Isu toka tsukue, arimasu ka. Hai, isu mo tsukue mo arimasu.",
-      "page": 74,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Daijoubu desu. Hontou desu ka. Terebi wa?",
-      "page": 74,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Aa, terebi wa irimasen. isu",
-      "page": 74,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "toka tsukue",
-      "page": 74,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "isu toka tsukue ~mo ~mo",
-      "page": 74,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "isu mo tsukue mo daijoubu",
-      "page": 74,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hontou terebi",
-      "page": 74,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "teeburu beddo",
-      "page": 74,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "reizouko sentaku (shimasu)",
-      "page": 74,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sentaku-ki souji (shimasu)",
-      "page": 74,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "souji-ki eakon",
-      "page": 74,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "3-4-1 X toka",
-      "page": 75,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Y, X to ka",
-      "page": 75,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Isu toka tsukue, arimasu ka. Isu ya tsukue arimasu ka.",
-      "page": 75,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Isu toka tsukue toka terebi, arimasu ka. Toka",
-      "page": 75,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Keitai toka tsukaimasu ka. Keitai toka sumaho toka tsukaimaus ka.",
-      "page": 75,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "3-4-2 X mo -",
-      "page": 75,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kore to are, irimasu ka Hai, kore mo are mo irimasu.",
-      "page": 75,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Iie, kore wa irimasu kedo, are wa irimasen. Isu to ka tsukue, arimasu ka.",
-      "page": 75,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Hai, isu mo tsukue mo arimasu. Keetai to ka sumaho, arimasu ka.",
-      "page": 75,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Hai, keetai mo sumaho mo arimasu.",
-      "page": 75,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Isu ya tsukue, arimasu ka. Ie, isu mo tsukue mo arimasen.",
-      "page": 76,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Eigo ya Supeingo, wakarimasu ka. Ie, eigo mo supeingo mo wakarimasen.",
-      "page": 76,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "AND",
-      "page": 76,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kono Kami to enpitsu, irimasu ka.",
-      "page": 77,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kami to enpitsu mo irimasu ka. Kami to enpitsu wa irimasu ka.",
-      "page": 77,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kami mo enpitsu mo irimasu ka. Kami toka enpitsu toka irimasu ka.",
-      "page": 77,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kami toka enpitsu mo irimasu ka. arimasu",
-      "page": 77,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "katta",
-      "page": 77,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Table 9. Numbers 1-40 in groups of ten, written in Japanese with English alphabet",
-      "page": 78,
-      "font_size": 9.119999885559082
-    },
-    {
-      "level": "H3",
-      "text": "ichi juu",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ichi nijuu-ichi",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sanjuu-ichi juu",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nijuu-ni sanjuu-ni",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "san juu-san",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nijuu-san sanjuu-san",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "shi yo, yon",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "juu-shii/yon nijuu-shi/yon",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sanjuu-shi/yon juu-go",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nijuu-go sanjuu-go",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "roku juu-roku",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nijuu-roku sanjuu-roku",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "shichi nana",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "juu-shichi/nana nijuu-shich/nanai",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sanjuu-shichi/nana hachi",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "juu-hachi nijuu-hachi",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sanjuu-hachi kyuu",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "juu-kyuu/ku nijuu-kyuu/ku",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sanjuu-kyuu/ku juu",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nijuu sanjuu",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu",
-      "page": 78,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Table 10. Numbers 41-80 in groups of ten, written in Japanese with English alphabet",
-      "page": 79,
-      "font_size": 9.119999885559082
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu-ichi gojuu-ichi",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rokujuu-ichi nanajuu-ichi",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu-ni gojuu-ni",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rokujuu-ni nanajuu-ni",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu-san gojuu-san",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rokujuu-san nanajuu-san",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu-shi/yon gojuu-shi/yon",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rokujuu-shi/yon nanajuu-shi/yon",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu-go gojuu-go",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rokujuu-go nanajuu-go",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu-roku gojuu-roku",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rokujuu-roku nanajuu-roku",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu-shichi/nana gojuu-shichi/nana",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rokujuu-shichi/nana nanajuu-shichi/nana",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu-hachi gojuu-hachi",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rokujuu-hachi nanajuu-hachi",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu-kyuu/ku gojuukyuu/-ku",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rokujuukyuu/-ku nanajuu-kyuu/ku",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "gojuu rokujuu",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nanajuu hachijuu",
-      "page": 79,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Table 11. Numbers 41-80 in groups of ten, written in Japanese with English alphabet",
-      "page": 80,
-      "font_size": 9.119999885559082
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu-ichi gojuu-ichi",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rokujuu-ichi nanajuu-ichi",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu-ni gojuu-ni",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rokujuu-ni nanajuu-ni",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu-san gojuu-san",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rokujuu-san nanajuu-san",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu-shi/yon gojuu-shi/yon",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rokujuu-shi/yon nanajuu-shi/yon",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu-go gojuu-go",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rokujuu-go nanajuu-go",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu-roku gojuu-roku",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rokujuu-roku nanajuu-roku",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu-shichi/nana gojuu-shichi/nana",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rokujuu-shichi/nana nanajuu-shichi/nana",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu-hachi gojuu-hachi",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rokujuu-hachi nanajuu-hachi",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yonjuu-kyuu/ku gojuukyuu/-ku",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rokujuukyuu/-ku nanajuu-kyuu/ku",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "gojuu rokujuu",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nanajuu hachijuu",
-      "page": 80,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Table 12. Numbers 81-100 in groups of ten; 100-1000 in groups of hundreds; and 1000-9000 in groups of thousands. All written in Japanese with English alphabet.",
-      "page": 81,
-      "font_size": 9.119999885559082
-    },
-    {
-      "level": "H3",
-      "text": "hachijuu-ichi kyuujuu-ichi",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hyaku sen",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hachijuu-ni kyuujuu-ni",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ni-hyaku ni-sen",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hachijuu-san kyuujuu-san",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "san-byaku san-zen",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hachijuu-shi/yon kyuujuu-shi/yon",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yon-shi/hyaku yon-shi/sen",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hachijuu-go kyuujuu-go",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "go-hyaku go-sen",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hachijuu-roku kyuujuu-roku",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rop-pyaku roku-sen",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hachijuu- shichi/nana",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kyuujuu- shichi/nana",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nana-hyaku nana-sen",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hachijuu-hachi kyuujuu-hachi",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hap-pyaku has-sen",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "89 hachijuu-kyuu/ku kyuujuukyuu/-ku",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kyuu-hyaku kyuu-sen",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kyuujuu hyaku",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sen sen",
-      "page": 81,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Table 13. Numbers 10,000 - 90,000 in groups of ten thousand. Written in Japanese with English alphabet.",
-      "page": 82,
-      "font_size": 9.119999885559082
-    },
-    {
-      "level": "H3",
-      "text": "ichi-man ni-man",
-      "page": 82,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "san-man yon-man",
-      "page": 82,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "go-man roku-man",
-      "page": 82,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nana-man hachi-man",
-      "page": 82,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kyuu-man nan-byaku",
-      "page": 82,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nan-zen nan-man",
-      "page": 82,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "rei zero",
-      "page": 82,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Dialogue 1 Dialogue 2",
-      "page": 83,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Dialogue 3",
-      "page": 84,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Dialogue 4",
-      "page": 85,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Taihen desu ne. Tetsudaimashou ka",
-      "page": 86,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ie, daijoubu desu. Ekuseru o tsukaimasu kara.",
-      "page": 86,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Sou desu ka? Ja, ganbattekudasai. Hai, ganbarimasu.",
-      "page": 86,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Zenbu dekimashita! Hayai desu nee!",
-      "page": 86,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "taihen(na) tetsudaimasu",
-      "page": 86,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "tetsudaimashou ka ekuseru",
-      "page": 86,
-      "font_size": 12.296340942382812
-    },
-    {
-      "level": "H3",
-      "text": "kara ganbatte kudasai",
-      "page": 86,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "banbarimasu zennbu",
-      "page": 86,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hayai osoi",
-      "page": 86,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "dou shite naze",
-      "page": 87,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nan de waado",
-      "page": 87,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "apuri intaanetto",
-      "page": 87,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "netto pawaapointo",
-      "page": 87,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "fairu waifai",
-      "page": 87,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "mashou, –mashou",
-      "page": 87,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "-masu -mashou",
-      "page": 87,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "mashou Kaerimashou.",
-      "page": 87,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Tetsudaimashou ka? Ekuseru o tsukai mashou.",
-      "page": 87,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Sou shimashou. , chotto….",
-      "page": 87,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Hai, onegai-shimasu. Ie, daijoubu desu.",
-      "page": 87,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "-mashou ka -mashou",
-      "page": 87,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "arimasu, dekimasu, wakarimasu",
-      "page": 87,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "mashou",
-      "page": 87,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kore tabemasu. Kore wa tabemasu.",
-      "page": 88,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kore mo tabemasu. Kore o tabemasu.",
-      "page": 88,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kore tabemasu",
-      "page": 88,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Dore o tabemasu ka. Kore desu.",
-      "page": 88,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kore o tabemasu. Pasokon o tsukaimasu ka.",
-      "page": 88,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Iya, pasokon ja nai desu. Sumaho desu. Iya, pasokon wa tsukaimasen. Sumaho o tsukaimasu.",
-      "page": 88,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "pasokon sumaho",
-      "page": 88,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sumaho pasokon",
-      "page": 88,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sumaho",
-      "page": 88,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Dekakemasen ka? Iya, nihongo o benkyou-shimasu.",
-      "page": 89,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Purezen desu yo. Ja, pawaapointo o tsukurimashou.",
-      "page": 89,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kara kara",
-      "page": 89,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kara Takai desu kara, kaimasen.",
-      "page": 89,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Wakarimasen kara kikimasu Ikimasen ka.",
-      "page": 89,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ee, ame desu kara kara",
-      "page": 89,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kedo Takai desu kara, kaimasen.",
-      "page": 89,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Takai desu kedo, kaimasu. Dou shite",
-      "page": 89,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "naze nan de",
-      "page": 89,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Desu ka Dou shite kaimasen ka?",
-      "page": 89,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Dou shite desu ka? Tetsudaimasu ka.",
-      "page": 89,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Mochiron desu. Itsu tetsudaimashou ka Shimasu ka.",
-      "page": 89,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Mochiron desu. Itsu shimashou ka",
-      "page": 89,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Apuri, tsukaimasu ka? Hai, kono apuri o tsukaimasu",
-      "page": 90,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Terebi, kaimasu ka? Hai, kono terebi o kaimasu.",
-      "page": 90,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Are, takai desu ka? Hai, takai desu kara, kaimasen",
-      "page": 90,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Are, tsukaimasen ka? Hai, tukaimasen kara, kaimasen.",
-      "page": 90,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Minasan, sukoshi yasumimashou Ja, ocha, iremashou ka",
-      "page": 91,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Watashi ga iremasu yo. Ja, tetsudaimasu.",
-      "page": 91,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Tanaka-san wa nani ga ii desu ka? Watashi wa koohii o onegai-shimasu.",
-      "page": 91,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Aa, oishii desu nee!",
-      "page": 91,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sukoshi ocha",
-      "page": 92,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "iremasu Tanaka",
-      "page": 92,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "koohii oishii",
-      "page": 92,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "mazui koucha",
-      "page": 92,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "mizu juusu",
-      "page": 92,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "gyuunyuu okashi",
-      "page": 92,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "suiitsu pan",
-      "page": 92,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "keeki kukkii",
-      "page": 92,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kudamono ringo",
-      "page": 92,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "mikan ichigo",
-      "page": 92,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "desu Kono apaato,",
-      "page": 92,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "takai desu. Kono apaato wa takai desu.",
-      "page": 92,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kono apaato mo takai desu. Kono apaato ga takai desu.",
-      "page": 92,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "desu",
-      "page": 92,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Dare ga, ikimasu ka. -Honda-san desu.",
-      "page": 93,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "-Honda-san ga ikimasu. Watashi ga iremasu",
-      "page": 93,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nani ga ii desu ka Kaerimasu ka?",
-      "page": 93,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "-Hai, shukudai ga arimasu kara. shukudai",
-      "page": 93,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Chotto yasumimasen ka. Sou desu ne. Minasan yasumimashou",
-      "page": 93,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kaerimasen ka Sou desu ne. Minasan, kaerimashou.",
-      "page": 93,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Koohii ya koucha, nomimasu ka? Iya, ko-hi-mokoucha mo nomimasen.",
-      "page": 93,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Keei ya kukkii, tabemasu ka?",
-      "page": 93,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Iya, keeki mo kukkii mo tabemasen Keeki desu ka?",
-      "page": 94,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Hai, ke-ki wo kaimasu. Honda –san desu ka.",
-      "page": 94,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Hai, Honda-san ga kaimasu.",
-      "page": 94,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ohiru wa obentou desu ka? Bento",
-      "page": 95,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ie, gaishoku desu. Nani ga suki desu ka?",
-      "page": 95,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Boku wa raamen ga tabetai desu kedo… Ii, raamen-ya-san ga arimasu yo.",
-      "page": 95,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ohashi, daijoubu desu ka? Mochiron desu.",
-      "page": 95,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hiru (o)bentou",
-      "page": 95,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "gaishoku nani",
-      "page": 95,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "suki(na) raamen",
-      "page": 95,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "tabetai ~ya",
-      "page": 95,
-      "font_size": 12.296340942382812
-    },
-    {
-      "level": "H3",
-      "text": "pan-ya, obentou-ya, hon-ya, raamen-ya",
-      "page": 95,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "raamen-ya-san ohashi",
-      "page": 96,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "gohan hirugohan",
-      "page": 96,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "asa asagohan",
-      "page": 96,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ban bangohan",
-      "page": 96,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "washoku youshoku",
-      "page": 96,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "chuuka itarian",
-      "page": 96,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kirai(na) daisuki(na)",
-      "page": 96,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "daikirai(na) teishou",
-      "page": 96,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "udon soba",
-      "page": 96,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "onigiri hanbaagaa",
-      "page": 96,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sarada sando",
-      "page": 96,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "supuun fooku",
-      "page": 96,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "naifu osara",
-      "page": 96,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "chawan owan",
-      "page": 96,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "donburi koppu",
-      "page": 96,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kappu",
-      "page": 96,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Maikeru-san wa ohashi daijoubu desu.",
-      "page": 97,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ohashi Maikeru-",
-      "page": 97,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "san Furansu wa",
-      "page": 97,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "keeki ga oisii desu Honda-san wa",
-      "page": 97,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "eigo wa jouzu desu kedo…",
-      "page": 97,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Dare ga eigo ga dekimasu",
-      "page": 97,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Watashi mo sushi ga suki desu",
-      "page": 97,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kedo. ga, wa, mo",
-      "page": 97,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "suki kirai",
-      "page": 97,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "wakarimasu , dekimasu",
-      "page": 97,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "arimasu irimasu",
-      "page": 97,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Honda-san wa sushi ga suki desu Watashi wa terebi wa irimasen",
-      "page": 97,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kono daigaku wa arabiago no jyugyou mo arimasu. tai",
-      "page": 97,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Tabetai desu tai",
-      "page": 97,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "masu tai desu",
-      "page": 97,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Tabemasu → Tabetai desu",
-      "page": 97,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Mimasu → Mitai desu ~tai",
-      "page": 97,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Table 14. Affirmative, negative, past and non-past forms of the verb tabemasu.",
-      "page": 98,
-      "font_size": 9.119999885559082
-    },
-    {
-      "level": "H3",
-      "text": "tabetai desu Tabetaku nai desu",
-      "page": 98,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Tabetaku arimasen tabetakatta desu",
-      "page": 98,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Tabetaku nakatta desu Tabetaku arimasen deshita",
-      "page": 98,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "-tai desu tai",
-      "page": 98,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ga/o Nihongo o benkyou-shitai desu.",
-      "page": 98,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Nihongo ga benkyou-shitai desu. ~tai",
-      "page": 98,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Tabemasen ka? Tabetai desu ka?",
-      "page": 98,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "mashou ~tai",
-      "page": 98,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "wakarimasu, irimasu, arimasu dekimasu",
-      "page": 98,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kaimasu. Nani o kaimasu ka",
-      "page": 98,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Irimasu. Nani ga irimasu ka.",
-      "page": 98,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Udon, yoku tabemasu nee udon",
-      "page": 99,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ee, watashi wa udon ga suki desu kara mu, yoku shimasu nee",
-      "page": 99,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ee, watashi wa geimu ga suki desu kara. Zenbu mitai desu ka.",
-      "page": 99,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ie, kore wa mitai desu kedo, are wa mitaku nai desu.",
-      "page": 99,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Zenbu yomitai desu ka? Ie, kore wa yomitai desu kedo,",
-      "page": 99,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "are wa yomitaku nai desu.",
-      "page": 99,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "bento Go-chuumon wa?",
-      "page": 100,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Toriaezu, biiru, san-bon kudasai. Sore kara sashimi o futa-tsu to yakitori o hito-tsu onegai-shimasu.",
-      "page": 100,
-      "font_size": 12.296340942382812
-    },
-    {
-      "level": "H3",
-      "text": "ashimi yakitorti",
-      "page": 100,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kyou wa otsukare-sama deshita. Ja, kanpai!",
-      "page": 100,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Kanpai!",
-      "page": 100,
-      "font_size": 12.296340942382812
-    },
-    {
-      "level": "H3",
-      "text": "chuumon gochuumon",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "toriaezu biiru",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "san-bon sorekara",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sashimi futa-tsu",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yokitori hito-tsu",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kanpai chuumon-shimasu",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ryouri menyuu",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sushi tempura",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "tabemono nomimono",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nama wain",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sake uuron-cha",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "niku sakana",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yasai misoshiru",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "tamago nori",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "ebi sake",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "gyuuniku butaniku",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "toriniku",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "とりにく",
-      "page": 101,
-      "font_size": 14.813116073608398
-    },
-    {
-      "level": "H3",
-      "text": "suteeki karee",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yakiniku",
-      "page": 101,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yakisoba shouyu",
-      "page": 102,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "miso shio",
-      "page": 102,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "koshou",
-      "page": 102,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "こしょう",
-      "page": 102,
-      "font_size": 14.813116073608398
-    },
-    {
-      "level": "H3",
-      "text": "satou",
-      "page": 102,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "さとう",
-      "page": 102,
-      "font_size": 14.813116073608398
-    },
-    {
-      "level": "H3",
-      "text": "~hon ~tsu",
-      "page": 102,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "~hon ~tsu",
-      "page": 102,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hon tsu",
-      "page": 102,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hito futa",
-      "page": 102,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "itsu nana",
-      "page": 102,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kokono tou",
-      "page": 102,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hon hon",
-      "page": 102,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "pon bon",
-      "page": 102,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "tsu juu-iti, juu-ni, juu-san,",
-      "page": 102,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Table 15. Expressions of -tsu and -hon/pon/bon when combined with numbers 1-11, as well as an unknown number.",
-      "page": 103,
-      "font_size": 9.119999885559082
-    },
-    {
-      "level": "H3",
-      "text": "~tsu ~hon/pon/bon",
-      "page": 103,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "hito-tsu ip-pon",
-      "page": 103,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "futa-tsu ni-hon",
-      "page": 103,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "mit-tsu san-bon",
-      "page": 103,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yot-tsu yon-hon",
-      "page": 103,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "itsu-tsu go-hon",
-      "page": 103,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "mut-tsu rop-pon",
-      "page": 103,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nana-tsu nana-hon",
-      "page": 103,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "yat-tsu hap-pon",
-      "page": 103,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "kokono-tsu kyuu-hon",
-      "page": 103,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "tou jup-pon",
-      "page": 103,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "jip-pon juuichi",
-      "page": 103,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "juuip-pon ikutsu/oikutsu",
-      "page": 103,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "nan-bon san-bon, hito-tsu",
-      "page": 103,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "chotto, suskoshi, takusan, zenbu, minna desu",
-      "page": 103,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Biiru, san-bon kudasai. Sashimi wa hito-tsu 1000-en desu.",
-      "page": 103,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Mizu o sukoshi nomitai desu. wa or mo",
-      "page": 103,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Mainichi, shukudai ga hito-tsu wa arimasu. Obentou o futatsu mo tabemashita.",
-      "page": 104,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ringo o mit-tsu kudasai Mikan o yot-tsu kudasai",
-      "page": 104,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "→ [Ringo o mit-tsu] to [mikan o yot-tsu] kudasai Onigiri ga mit-tsu to sando ga itsu-tsu, sorekara mizu ga ni-hon arimasu",
-      "page": 104,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "onigiri Go-hon desu ne.",
-      "page": 104,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ie, rop-pon desu. Mit-tsu desu ne.",
-      "page": 104,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ie, yot-tsu desu. Sashimi to biiru desu ka.",
-      "page": 104,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Hai, sashimi o futa-tsu to biiru o sdan-bon kudasai.",
-      "page": 104,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Ringo to mikan desu ka. Hai, ringo o futa-tsu to",
-      "page": 104,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Mikan o mit-tsu kudasai.",
-      "page": 104,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Yasumimasen ka. Yasumimashou.",
-      "page": 105,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Yasumimashou ka Yasumitai desu ka.",
-      "page": 105,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Yasai desu kedo tabemasen. Yasai desu kara tabemasen.",
-      "page": 105,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Honda-san o mimashita. Honda -san ga mimashita.",
-      "page": 105,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Wain nomimasu ka. Wain wa nomimasu ka.",
-      "page": 105,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Wain mo nomimasu ka. Wain o nomimasu ka.",
-      "page": 105,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "tai tabetai desu",
-      "page": 106,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Table 16. Choices of particles for different discourses functions",
-      "page": 106,
-      "font_size": 9.119999885559082
-    },
-    {
-      "level": "H3",
-      "text": "Kinou watashi",
-      "page": 106,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "keeki hiyo-tsu",
-      "page": 106,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Tabemashita sake",
-      "page": 106,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "sake",
-      "page": 106,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Dialogue 1",
-      "page": 107,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Dialogue 2 Dialogue 3",
-      "page": 108,
-      "font_size": 12.0
-    },
-    {
-      "level": "H3",
-      "text": "Dialogue 4",
-      "page": 109,
-      "font_size": 12.0
+      "level": "H1",
+      "text": "Hackathon25.git",
+      "page": 9,
+      "font_size": 20.0
     }
   ]
 }
