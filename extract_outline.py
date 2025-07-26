@@ -1,164 +1,231 @@
 import fitz  # PyMuPDF
 import json
-import sys
 import os
-from collections import defaultdict
 import re
+import argparse
+from collections import defaultdict
+from statistics import median, mode, StatisticsError
 
-def extract_text_blocks(pdf_path):
-    """Extract text blocks with attributes from the PDF."""
-    try:
-        doc = fitz.open(pdf_path)
-    except Exception as e:
-        print(f"Error opening PDF: {e}")
-        sys.exit(1)
-    
-    blocks = []
-    for page_num in range(len(doc)):
-        page = doc[page_num]
-        page_blocks = page.get_text("dict")["blocks"]
-        for block in page_blocks:
-            if "lines" not in block:
-                continue
-            for line in block["lines"]:
-                for span in line["spans"]:
-                    text = span["text"].strip()
-                    if not text:  # Skip empty text
-                        continue
-                    blocks.append({
-                        "text": text,
-                        "font_size": span["size"],
-                        "font": span["font"],
-                        "flags": span["flags"],  # For bold, italic, etc.
-                        "bbox": span["bbox"],  # (x0, y0, x1, y1)
-                        "page": page_num 
-                    })
-    
-    doc.close()
-    return blocks
+CONFIG = {
+    "header_threshold": 0.15,
+    "footer_threshold": 0.85,
+    "min_heading_score": 3.0,
+    "font_size_ratio": 1.0,
+    "min_body_text_words": 6,
+    "title_page_limit": 2,
+}
 
-def detect_title(blocks, metadata):
-    """Identify the document title robustly, merging multi-line titles."""
-    # Check metadata first
-    if metadata.get("title") and metadata["title"].strip():
-        return metadata["title"]
-    
-    # Find the first non-empty page
-    first_page = min([b["page"] for b in blocks], default=1)
-    first_page_blocks = [b for b in blocks if b["page"] == first_page]
-    if not first_page_blocks:
-        return "Untitled"
-    
-    # Sort by font size (desc) and vertical position (asc)
-    candidates = sorted(first_page_blocks, key=lambda x: (-x["font_size"], x["bbox"][1]))
-    if not candidates:
-        return "Untitled"
-    
-    # Take the largest font size among candidates
-    max_font_size = candidates[0]["font_size"]
-    title_lines = []
-    for block in candidates:
-        # Merge lines with similar font size and close vertical position
-        if abs(block["font_size"] - max_font_size) < 1.0 and len(block["text"]) > 2:
-            title_lines.append((block["bbox"][1], block["text"]))
-    # Sort by vertical position and join
-    title_lines = [t[1] for t in sorted(title_lines, key=lambda x: x[0])]
-    title = " ".join(title_lines).strip()
-    if title:
-        return title
-    return "Untitled"
-
-def detect_headings(blocks):
-    """Detect headings (H1, H2, H3) for complex PDFs."""
-    # Calculate font size statistics
-    font_sizes = [b["font_size"] for b in blocks if b["text"]]
-    if not font_sizes:
-        return []
-    
-    # Dynamic thresholds for H1, H2, H3 (handles inconsistent PDFs)
-    sorted_sizes = sorted(set(font_sizes), reverse=True)
-    h1_threshold = sorted_sizes[min(2, len(sorted_sizes)-1)] if sorted_sizes else 12
-    h2_threshold = sorted_sizes[min(4, len(sorted_sizes)-1)] if len(sorted_sizes) > 3 else h1_threshold * 0.9
-    h3_threshold = sorted_sizes[min(6, len(sorted_sizes)-1)] if len(sorted_sizes) > 5 else h2_threshold * 0.9
-
-    headings = []
-    for block in blocks:
-        text = block["text"]
-        if len(text) < 3 or re.match(r"^\d+(\.\d+)*$", text):  # Skip short or number-only (e.g., "4.4.4...")
-            continue
-        
-        # Heading criteria: font size, bold, or content patterns
-        is_heading = (
-            block["font_size"] >= h3_threshold or
-            block["flags"] & 2 or  # Bold flag
-            re.match(r"^(Round|Section|Chapter|Part)\s+\w+", text, re.IGNORECASE) or
-            text.isupper()  # All caps often indicate headings
-        )
-        
-        if is_heading:
-            # Assign level based on font size and position
-            if block["font_size"] >= h1_threshold:
-                level = "H1"
-            elif block["font_size"] >= h2_threshold:
-                level = "H2"
-            else:
-                level = "H3"
-            headings.append({
-                "level": level,
-                "text": text,
-                "page": block["page"],
-                "font_size": block["font_size"]
-            })
-    
-    # Merge adjacent blocks with similar attributes (for multi-line headings)
-    merged_headings = []
-    i = 0
-    while i < len(headings):
-        current = headings[i]
-        if i + 1 < len(headings) and headings[i]["page"] == headings[i+1]["page"]:
-            next_heading = headings[i+1]
-            if abs(headings[i]["font_size"] - headings[i+1]["font_size"]) < 1.0:
-                current["text"] += " " + next_heading["text"]
-                i += 1
-        merged_headings.append(current)
-        i += 1
-    
-    return merged_headings
-
-def main(pdf_path, output_path):
-    """Process PDF and generate JSON output."""
-    if not os.path.exists(pdf_path):
-        print(f"Error: {pdf_path} not found")
-        sys.exit(1)
-    
-    # Extract text blocks and metadata
-    blocks = extract_text_blocks(pdf_path)
+def get_document_structure(pdf_path):
     doc = fitz.open(pdf_path)
-    metadata = doc.metadata
+    doc_structure = []
+    for page_num, page in enumerate(doc):
+        page_data = {
+            "page_num": page_num + 1,
+            "page_width": page.rect.width,
+            "page_height": page.rect.height,
+            "blocks": []
+        }
+        blocks = page.get_text("dict", flags=fitz.TEXTFLAGS_DICT & ~fitz.TEXT_PRESERVE_LIGATURES).get("blocks", [])
+        for b in blocks:
+            if b.get("type") == 0:
+                block_data = {"bbox": b['bbox'], "lines": []}
+                for line in b.get("lines", []):
+                    spans = line.get("spans")
+                    if spans:
+                        line_text = " ".join(s.get("text", "") for s in spans).strip()
+                        if line_text:
+                            clean_line = {
+                                "text": line_text,
+                                "bbox": line.get("bbox", []),
+                                "spans": spans,
+                            }
+                            block_data["lines"].append(clean_line)
+                if block_data["lines"]:
+                    page_data["blocks"].append(block_data)
+        doc_structure.append(page_data)
     doc.close()
-    
-    # Detect title and headings
-    title = detect_title(blocks, metadata)
-    headings = detect_headings(blocks)
-    
-    # Create JSON output
-    output = {
-        "title": title,
-        "outline": headings
-    }
-    
-    # Write to file
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
-    
-    print(f"Output written to {output_path}")
+    return doc_structure
 
-if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python extract_outline.py <input.pdf> <output.json>")
-        sys.exit(1)
+def identify_and_filter_content(doc_structure, config):
+    ignored_line_ids = set()
+    potential_hf_lines = defaultdict(list)
     
-    pdf_path = sys.argv[1]
-    output_path = sys.argv[2]
-    main(pdf_path, output_path)
+    for page in doc_structure[1:]:
+        for block in page['blocks']:
+            is_header = block['bbox'][3] < page['page_height'] * config['header_threshold']
+            is_footer = block['bbox'][1] > page['page_height'] * config['footer_threshold']
+            if is_header or is_footer:
+                for line in block['lines']:
+                    normalized_text = re.sub(r'\d+', '#', line['text'])
+                    if len(normalized_text.split()) < 8:
+                        potential_hf_lines[normalized_text].append(page['page_num'])
+
+    num_pages = len(doc_structure)
+    for text, pages in potential_hf_lines.items():
+        if len(set(pages)) > 2 or (num_pages > 5 and len(set(pages)) > num_pages * 0.5):
+            for page in doc_structure:
+                if page['page_num'] in pages:
+                    for block in page['blocks']:
+                        for line in block['lines']:
+                            if re.sub(r'\d+', '#', line['text']) == text:
+                                ignored_line_ids.add((line['text'], tuple(map(round, line['bbox']))))
+
+    for page in doc_structure:
+        for block in page['blocks']:
+            if len(block['lines']) > 5:
+                line_spacings = [
+                    block['lines'][i+1]['bbox'][1] - block['lines'][i]['bbox'][3]
+                    for i in range(len(block['lines']) - 1)
+                ]
+                if len(line_spacings) > 2 and len(set(round(s) for s in line_spacings)) < 3:
+                    for line in block['lines']:
+                        ignored_line_ids.add((line['text'], tuple(map(round, line['bbox']))))
+
+    return ignored_line_ids
+
+def find_title_by_layout(doc_structure, ignored_line_ids, config):
+    candidates = []
+    for page in doc_structure[:config['title_page_limit']]:
+        for block in page['blocks']:
+            if any((line['text'], tuple(map(round, line['bbox']))) in ignored_line_ids for line in block['lines']):
+                continue
+            if not (1 <= len(block['lines']) <= 4) or block['bbox'][1] > page['page_height'] * 0.4:
+                continue
+
+            block_text = " ".join(line['text'] for line in block['lines'])
+            if not block_text:
+                continue
+            
+            avg_size = median([s['size'] for line in block['lines'] for s in line['spans']]) if any(line['spans'] for line in block['lines']) else 0
+            block_center_x = (block['bbox'][0] + block['bbox'][2]) / 2
+            page_center_x = page['page_width'] / 2
+            centering_score = (1 - abs(block_center_x - page_center_x) / page_center_x) * 15 if page_center_x > 0 else 0
+            position_score = (1 - block['bbox'][1] / (page['page_height'] * 0.4)) * 5
+            score = avg_size + centering_score + position_score
+            candidates.append({"text": block_text, "score": score, "lines": block['lines']})
+
+    if not candidates:
+        return "Untitled Document", set()
+
+    best_candidate = max(candidates, key=lambda x: x["score"])
+    return best_candidate['text'], {(line['text'], tuple(map(round, line['bbox']))) for line in best_candidate['lines']}
+
+def get_heading_score(line, block, body_text_size, config):
+    text = line['text']
+    spans = line['spans']
+    
+    if re.match(r'^\s*•|^\s*\|^\s-|`', text) or \
+       re.search(r'https?://\S+|www\.\S+|\S+\.git$', text) or \
+       len(text.split()) > 15 or \
+       text.endswith(('.', ',')):
+        return -10
+    
+    font_sizes = {round(s['size']) for s in spans}
+    if len(font_sizes) > 1:
+        return -10
+
+    score = 0.0
+    line_size = font_sizes.pop()
+    is_bold = any(s['flags'] & 2 for s in spans)
+
+    if line_size > body_text_size:
+        score += (line_size - body_text_size) * 3
+    elif line_size < body_text_size:
+        score -= (body_text_size - line_size)
+
+    if is_bold:
+        score += 2.5
+    if re.match(r"^\d+\.\s", text):
+        score += 2.0
+    if text.istitle():
+        score += 1.5
+    if text.isupper():
+        score += 2.0
+    if len(text.split()) < 10:
+        score += 1.0
+    if text.endswith(':'):
+        score += 2.0
+    if len(block['lines']) == 1:
+        score += 3.0
+    if line_size < body_text_size and not is_bold:
+        score -= 3.0
+
+    return score
+
+def extract_pdf_outline(pdf_path, config=CONFIG):
+    doc_structure = get_document_structure(pdf_path)
+    
+    if not any(block['lines'] for page in doc_structure for block in page['blocks']):
+        return {"title": "No Text Found", "outline": [], "error": "No text extracted. Consider using OCR."}
+
+    font_sizes = [
+        round(s['size']) for page in doc_structure for b in page['blocks'] 
+        for line in b['lines'] for s in line['spans']
+        if len(line['text'].split()) > config['min_body_text_words'] and not any(sp['flags'] & 2 for sp in line['spans'])
+    ]
+    body_text_size = median(font_sizes) if font_sizes else 10
+
+    ignored_line_ids = identify_and_filter_content(doc_structure, config)
+    title_text, title_line_ids = find_title_by_layout(doc_structure, ignored_line_ids, config)
+    ignored_line_ids.update(title_line_ids)
+
+    heading_candidates = []
+    for page in doc_structure:
+        for block in page['blocks']:
+            for line in block['lines']:
+                if (line['text'], tuple(map(round, line['bbox']))) in ignored_line_ids:
+                    continue
+                score = get_heading_score(line, block, body_text_size, config)
+                if score > config['min_heading_score']:
+                    line['page'] = page['page_num']
+                    heading_candidates.append(line)
+
+    if not heading_candidates:
+        return {"title": title_text, "outline": []}
+
+    style_properties = defaultdict(list)
+    for h in heading_candidates:
+        try:
+            style_key = (mode([round(s['size']) for s in h['spans']]), any(s['flags'] & 2 for s in h['spans']))
+            style_properties[style_key].append(h['bbox'][0])
+        except StatisticsError:
+            continue
+
+    ranked_styles = [
+        {"size": style[0], "bold": style[1], "x0": median(x0s), "style_key": style}
+        for style, x0s in style_properties.items()
+    ]
+    ranked_styles.sort(key=lambda x: (-x["size"], x["x0"]))
+
+    style_to_level = {style["style_key"]: f"H{min(i+1, 3)}" for i, style in enumerate(ranked_styles[:3])}
+
+    outline = []
+    for line in heading_candidates:
+        try:
+            style_key = (mode([round(s['size']) for s in line['spans']]), any(s['flags'] & 2 for s in line['spans']))
+        except StatisticsError:
+            style_key = None
+        level = style_to_level.get(style_key, "H3")
+        outline.append({"level": level, "text": line["text"], "page": line["page"]})
+
+    return {"title": title_text, "outline": outline}
+
+def save_json(data, output_path):
+    dir_name = os.path.dirname(output_path)
+    if dir_name:
+        os.makedirs(dir_name, exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+### MAIN BLOCK: Replace this with argparse version later
+if __name__ == "__main__":
+    input_pdf = "input/sample.pdf"
+    output_json = "output/output.json"
+    try:
+        print(f"Processing {input_pdf}...")
+        result = extract_pdf_outline(input_pdf)
+        save_json(result, output_json)
+        print(f"Success! Outline saved to {output_json}")
+    except Exception as e:
+        print(f"Error: {e}")
+        save_json({"title": "Extraction Failed", "outline": [], "error": str(e)}, output_json)

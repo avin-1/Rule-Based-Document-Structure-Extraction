@@ -1,821 +1,235 @@
 {
-  "title": "Welcome to the “Connecting the Dots” Challenge",
+  "title": "Welcome to the   “Connecting the Dots” Challenge",
   "outline": [
     {
-      "level": "H1",
-      "text": "Welcome to the “Connecting the Dots” Challenge",
-      "page": 1,
-      "font_size": 20.0
+      "level": "H2",
+      "text": "Rethink Reading. Rediscover Knowledge",
+      "page": 2
     },
     {
-      "level": "H1",
-      "text": "Rethink Reading. Rediscover Knowledge What if every time you opened a PDF, it didn’t just",
-      "page": 1,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "The Journey Ahead",
+      "page": 2
     },
     {
-      "level": "H1",
-      "text": "sit there —it",
-      "page": 1,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "Why This Matters",
+      "page": 2
     },
     {
-      "level": "H1",
-      "text": "spoke to you connected ideas",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": ", and narrated meaning",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "across your entire library? That’s the future we’re building — and we want",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "you to help shape it.",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "In the Connecting the Dots Challenge",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": ", your mission is to reimagine the humble PDF as an intelligent, interactive experience—one that",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "understands structure surfaces insights",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": ", and responds to you",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "like a trusted research companion. The Journey Ahead",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Round 1: Kick things off by building the brains — extract structured outlines from",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "raw PDFs with blazing speed and pinpoint accuracy. Then, power it up with on-device intelligence that understands sections and links related",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "ideas together. Round 2:",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "It’s showtime! Build a beautiful, intuitive reading webapp using Adobe’s PDF Embed API. You will be using your Round 1 work to design a",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "futuristic webapp. Why This Matters",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "In a world flooded with documents, what wins is not more content — it’s context",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": ". You’re not just building tools — you’re building the future of how we read, learn, and connect",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": ". No matter your background — ML hacker, UI builder, or insight whisperer — this is your stage.",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Are you in? It’s time to read between the lines. Connect the dots. And build a PDF",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "experience that feels like magic",
-      "page": 1,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": ". Let’s go.",
-      "page": 1,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "Are you in?",
+      "page": 2
     },
     {
       "level": "H1",
       "text": "Round 1A: Understand Your Document",
-      "page": 2,
-      "font_size": 20.0
+      "page": 3
     },
     {
-      "level": "H1",
-      "text": "Challenge Theme: Connecting the Dots Through Docs Your Mission",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "Challenge Theme: Connecting the Dots Through Docs",
+      "page": 3
     },
     {
-      "level": "H1",
-      "text": "You're handed a PDF — but instead of simply reading it, you're tasked with making sense of it like a machine would. Your job is to extract a structured",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "Your Mission",
+      "page": 3
     },
     {
-      "level": "H1",
-      "text": "outline of the document — essentially the Title",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "Why This Matters",
+      "page": 3
     },
     {
-      "level": "H1",
-      "text": ", and headings like , and",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "What You Need to Build",
+      "page": 3
     },
     {
-      "level": "H1",
-      "text": "— in a clean, hierarchical format. This outline will be the",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "You must build a solution that:",
+      "page": 3
     },
     {
-      "level": "H1",
-      "text": "foundation for the rest of your hackathon journey.",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "You Will Be Provided",
+      "page": 3
     },
     {
-      "level": "H1",
-      "text": "Why This Matters PDFs are everywhere — but machines don’t naturally understand their",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "3.   Sample Dockerfile",
+      "page": 4
     },
     {
-      "level": "H1",
-      "text": "structure. By building an outline extractor, you’re enabling smarter document experiences, like semantic search, recommendation systems, and insight",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "4.   Sample Solution",
+      "page": 4
     },
     {
-      "level": "H1",
-      "text": "generation. What You Need to Build",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "Docker Requirements",
+      "page": 4
     },
     {
-      "level": "H1",
-      "text": "You must build a solution that: Accepts a",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "Expected Execution",
+      "page": 4
     },
     {
-      "level": "H1",
-      "text": "PDF file (up to 50 pages)",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "We will build the docker image using the following command:",
+      "page": 4
     },
     {
-      "level": "H1",
-      "text": "Extracts: Title",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "Your container should:",
+      "page": 4
     },
     {
-      "level": "H1",
-      "text": "Headings: H1, H2, H3 (with level and page number)",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "Constraints",
+      "page": 4
     },
     {
-      "level": "H1",
-      "text": "Outputs a valid JSON file in the format below: \"title\": \"Understanding AI\",",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "Model size  ≤ 200MB (if used)",
+      "page": 5
     },
     {
-      "level": "H1",
-      "text": "\"outline\": [ { \"level\": \"H1\", \"text\": \"Introduction\", \"page\": 1 },",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "Runtime",
+      "page": 5
     },
     {
-      "level": "H1",
-      "text": "{ \"level\": \"H2\", \"text\": \"What is AI?\", \"page\": 2 }, { \"level\": \"H3\", \"text\": \"History of AI\", \"page\": 3 }",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "Scoring Criteria",
+      "page": 5
     },
     {
-      "level": "H1",
-      "text": "You Will Be Provided sample input PDF",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "Submission Checklist",
+      "page": 5
     },
     {
-      "level": "H1",
-      "text": "(e.g., sample.pdf) sample ground truth output",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "4.   A README.md that explains:",
+      "page": 5
     },
     {
-      "level": "H1",
-      "text": "(sample.json) for format clarity",
-      "page": 2,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "Pro Tips",
+      "page": 5
     },
     {
-      "level": "H1",
-      "text": "Sample Dockerfile Sample Solution",
-      "page": 3,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "What Not to Do",
+      "page": 6
     },
     {
-      "level": "H1",
-      "text": "Docker Requirements Please ensure your Dockerfile is compatible with AMD64",
-      "page": 3,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "architecture. Since we will build and run the image on an AMD64 machine, your base image and any dependencies should support",
-      "page": 3,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "linux/amd64. Optionally, you can include the following in your Dockerfile to explicitly specify the platform: FROM --",
-      "page": 3,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "platform=linux/amd64 <base_image> CPU architecture:",
-      "page": 3,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "amd64 (x86_64) No GPU dependencies",
-      "page": 3,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Model size (if used) ≤ 200MB Should work offline — no network/internet calls",
-      "page": 3,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Expected Execution We will build the docker image using the following command:",
-      "page": 3,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "```docker build --platform linux/amd64 -t mysolutionname:somerandomidentifier```",
-      "page": 3,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "After building the image, we will run the solution using the run command specified in the submitted instructions.",
-      "page": 3,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "```docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output -- network none mysolutionname:somerandomidentifier```",
-      "page": 3,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Your container should: Automatically process all PDFs from /app/input directory,",
-      "page": 3,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "generating a corresponding filename.json in /app/output for each filename.pdf",
-      "page": 3,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "output.json Constraints",
-      "page": 3,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Constraint Requirement",
-      "page": 3,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Execution time",
-      "page": 3,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "≤ 10 seconds for a 50-page PDF",
-      "page": 3,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Model size  ≤ 200MB (if used) Network",
-      "page": 4,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "No internet access allowed",
-      "page": 4,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Runtime Must run on CPU (amd64),",
-      "page": 4,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "your solution should run on the system with 8 CPUs and",
-      "page": 4,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "16 GB RAM configurations Scoring Criteria",
-      "page": 4,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Criteria Max",
-      "page": 4,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Points Heading Detection Accuracy (Precision +",
-      "page": 4,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Recall) Performance (Time & Size Compliance)",
-      "page": 4,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Bonus: Multilingual Handling (e.g., Japanese)",
-      "page": 4,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Total Submission Checklist",
-      "page": 4,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Git Project with a working Dockerfile in the root director and A working",
-      "page": 4,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Dockerfile All dependencies installed within the container",
-      "page": 4,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "A README.md that explains: Your approach",
-      "page": 4,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Any models or libraries used How to build and run your solution (This is purely for",
-      "page": 4,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "documentation purpose, your solution should run using the “Expected Execution” section above.",
-      "page": 4,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Pro Tips Don’t rely solely on font sizes for heading level determination —",
-      "page": 4,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "headings in some PDFs break that assumption. Test your solution across both simple and complex PDFs.",
-      "page": 4,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Make your code modular — you’ll reuse this structure in Round 1B.",
-      "page": 4,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Important – Please keep your Git Repo private till the competition deadline, you will be informed, when to make the repo public.",
-      "page": 5,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "What Not to Do Do not hardcode headings or file-specific logic",
-      "page": 5,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Do not make API or web calls Do not exceed the runtime/model size constraints",
-      "page": 5,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "[[Public Dataset Folder]] (For Sample Input and Output Files, please refer to the appendix)",
-      "page": 5,
-      "font_size": 14.0
+      "level": "H2",
+      "text": "[[Public Dataset Folder]]",
+      "page": 6
     },
     {
       "level": "H1",
       "text": "Round 1B: Persona-Driven Document Intelligence",
-      "page": 6,
-      "font_size": 20.0
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Challenge Brief (For Participants)",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Input Specification",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "2.   Document Collection : 3-10 related PDFs  Persona Definition : Role",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "description with specific expertise and focus areas",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "3.   Job-to-be-Done : Concrete task the persona needs to accomplish",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Sample Test Cases",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Test Case 1: Academic Research",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Test Case 2: Business Analysis",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Test Case 3: Educational Content",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Required Output",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "The output should contain:",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "1.   Metadata:",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "2.   Extracted Section:",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "3.   Sub-section Analysis:",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Deliverables",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Sample input/output for testing",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Scoring Criteria",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Criteria",
+      "page": 9
     },
     {
       "level": "H1",
-      "text": "Theme: “Connect What Matters — For the User Who Matters”",
-      "page": 6,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Challenge Brief (For Participants) You will build a system that acts as an intelligent document analyst, extracting",
-      "page": 6,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "and prioritizing the most relevant sections from a collection of documents based on a specific persona and their job-to-be-done.",
-      "page": 6,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Input Specification Document Collection",
-      "page": 6,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": ": 3-10 related PDFs Persona Definition",
-      "page": 6,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": ": Role description with specific expertise and focus areas",
-      "page": 6,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Job-to-be-Done : Concrete task the persona needs to accomplish",
-      "page": 6,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Document collection, persona and job-to-be-done can be very diverse. So, the solution that teams need to build needs to be generic to generalize to this",
-      "page": 6,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "variety. Documents can be from any domain (Example: Research papers,",
-      "page": 6,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "school/college books, financial reports, news articles etc.) Persona can again be very diverse (Example: Researcher, Student,",
-      "page": 6,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Salesperson, Journalist, Entrepreneur etc) Job-to-be-done: This will be related to the persona (Example:",
-      "page": 6,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Provide a literature review for a given topic and available research papers, What should I study for Organic Chemistry given the",
-      "page": 6,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "chemistry documents, Summarize the financials of corporation xyz given the detailed year end financial reports etc.)",
-      "page": 6,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Sample Test Cases Test Case 1: Academic Research",
-      "page": 6,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Documents : 4 research papers on \"Graph Neural Networks for",
-      "page": 6,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Drug Discovery\" Persona",
-      "page": 6,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": ": PhD Researcher in Computational Biology Job",
-      "page": 6,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": ": \"Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks\"",
-      "page": 6,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Test Case 2: Business Analysis Documents",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": ": 3 annual reports from competing tech companies (2022-2024)",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Persona : Investment Analyst",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Job : \"Analyze revenue trends, R&D investments, and market",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "positioning strategies\" Test Case 3: Educational Content",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Documents : 5 chapters from organic chemistry textbooks",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Persona : Undergraduate Chemistry Student",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Job : \"Identify key concepts and mechanisms for exam preparation",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "on reaction kinetics\" Required Output",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Output JSON format: Refer challenge1b_output.json",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "The output should contain: Metadata:",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Input documents Persona",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Job to be done Processing timestamp",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Extracted Section: Document",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Page number Section title",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Importance_rank Sub-section Analysis:",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Document Refined Text",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Page Number Constraints",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Must run on CPU",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "only Model size",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "≤ 1GB Processing time ≤ 60",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "seconds for document collection (3-5",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "documents) No internet access",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "allowed during execution",
-      "page": 7,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Deliverables approach_explanation.md (300-500 words explaining",
-      "page": 8,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "methodology) Dockerfile and execution instructions",
-      "page": 8,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Sample input/output for testing Scoring Criteria",
-      "page": 8,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Criteria Max",
-      "page": 8,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Points Description",
-      "page": 8,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Section Relevance How well selected sections match",
-      "page": 8,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "persona + job requirements with proper stack ranking",
-      "page": 8,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Sub-Section Relevance Quality of granular subsection",
-      "page": 8,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "extraction and ranking",
-      "page": 8,
-      "font_size": 14.0
-    },
-    {
-      "level": "H1",
-      "text": "Appendix: https://github.com/jhaaj08/Adobe-India-",
-      "page": 9,
-      "font_size": 20.0
-    },
-    {
-      "level": "H1",
-      "text": "Hackathon25.git",
-      "page": 9,
-      "font_size": 20.0
+      "text": "Appendix:",
+      "page": 10
     }
   ]
 }
