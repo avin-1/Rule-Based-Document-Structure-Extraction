@@ -10,6 +10,7 @@ The extraction process is a rule-based pipeline that analyzes a document's struc
 
 1.  **Document Parsing (`PyMuPDF`)**: The process begins by parsing the PDF to create a structured representation of its content, capturing text, font properties (size, weight), and precise coordinates for every line on each page.
 
+
 2.  **Noise Reduction (Header/Footer Removal)**: To improve accuracy, the script identifies and excludes repetitive text that appears in the top and bottom margins across multiple pages. This prevents page numbers and running headers from being mistaken for headings.
 
 3.  **Title Identification**: The title is located by scoring text blocks on the first two pages. The scoring algorithm prioritizes text that is:
@@ -47,3 +48,4 @@ From the project's root directory, run the following command:
 ```bash
 docker build --platform linux/amd64 -t mysolutionname:somerandomidentifier .
 docker run --rm -v "$(pwd)/input:/app/input" -v "$(pwd)/output:/app/output" --network none mysolutionname:somerandomidentifier
+
