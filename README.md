@@ -40,10 +40,9 @@ The extraction process is a rule-based pipeline that analyzes a document's struc
 
 The solution is containerized with Docker for seamless execution as per the hackathon requirements.
 
-### 1. Build the Docker Image
+### 1. Build the Docker Image and run 
 
-From the project's root directory, run the following command:
+From the project’s root directory, run:
 
 ```bash
 docker build --platform linux/amd64 -t mysolutionname:somerandomidentifier .
-docker run --rm -v "$(pwd)/input:/app/input" -v "$(pwd)/output:/app/output" --network none mysolutionname:somerandomidentifier
