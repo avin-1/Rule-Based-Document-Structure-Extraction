@@ -1,6 +1,6 @@
 # PDF Rule Based Outline Extractor
 
-This solution addresses the challenge by extracting a structured outline (Title, H1, H2, H3) from PDF files. It is designed to be fast, accurate, and fully compliant with the hackathon's execution constraints.
+This solution extracts a structured outline (Title, H1, H2, H3) from PDF files, designed to be fast and accurate.
 
 ---
 
